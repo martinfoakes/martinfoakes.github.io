@@ -11,10 +11,10 @@ p {
 }
 
 .nav {
-	text-align: center;
+  text-align: center;
 }
 
-.nav li{
+li {
   display: inline;
   font-weight: 100;
   letter-spacing: 2px;
