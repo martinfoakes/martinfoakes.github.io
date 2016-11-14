@@ -1,8 +1,6 @@
 * {
   font-family: 'Montserrat', sans-serif;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
+  border: 1px solid #000000;
 }
 
 p {
