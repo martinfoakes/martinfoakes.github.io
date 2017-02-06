@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  border: 1px solid #000000;
+  border: 1px solid #000;
 }
 
 h1 {
@@ -14,6 +14,19 @@ p {
   text-decoration: none;
 }
 
+a {
+  font: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
 
 li {
   display: list-item;
