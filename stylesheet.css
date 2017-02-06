@@ -14,16 +14,11 @@ p {
   text-decoration: none;
 }
 
-.nav {
-  text-align: center;
-}
 
 li {
-  display: inline;
+  display: list-item;
   font-weight: 100;
   letter-spacing: 2px;
   padding: 20px 0px;
   text-transform: uppercase;
-  margin-left: 20px;
-  margin-right: 20px;
 }
