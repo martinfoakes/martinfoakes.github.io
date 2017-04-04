@@ -35,3 +35,8 @@ li {
   padding: 20px 0px;
   text-transform: uppercase;
 }
+
+img.logo {
+  width: auto;
+  height: 50%;
+}
