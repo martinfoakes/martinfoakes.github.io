@@ -36,7 +36,7 @@ li {
   text-transform: uppercase;
 }
 
-img.logo {
-  width: auto;
-  height: 50%;
+img {
+  max-width: 100%;
+  height: auto;
 }
