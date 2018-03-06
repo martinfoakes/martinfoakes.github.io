@@ -8,6 +8,11 @@ h1 {
   color:BrickRed;
 }
 
+h1, h2, h3, h4, h5, h6, li {
+    font-weight: bold;
+    margin: 0;
+}
+
 p {
   color: SeaGreen;
   text-decoration: none;
@@ -21,6 +26,11 @@ a.nav-link:hover {
   border-bottom: 2px solid blue;
 }
 
+.nav-link {
+  margin-bottom: 1.5em;
+  padding-bottom: 2em;
+}
+
 a:visited {
   text-decoration: none;
   color: #000;
@@ -32,7 +42,6 @@ a:link {
 }
 
 li {
-  display: list-item;
   font-weight: 100;
   letter-spacing: 2px;
   padding: 20px 0px;
