@@ -4,10 +4,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  color:BrickRed;
-}
-
 h1, h2, h3, h4, h5, h6, li {
     font-weight: bold;
 }
@@ -23,11 +19,7 @@ a {
 
 a.nav-link:hover {
   border-bottom: 2px solid blue;
-}
-
-.nav-link {
-  margin-bottom: 1.5em;
-  padding-bottom: 2em;
+  color: #708090;
 }
 
 a:visited {
