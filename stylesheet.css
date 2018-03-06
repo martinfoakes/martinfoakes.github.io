@@ -39,3 +39,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.nav-link:hover {
+  border-bottom: 2px solid blue;
+}
