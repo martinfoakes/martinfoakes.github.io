@@ -17,6 +17,10 @@ a {
   font: inherit;
 }
 
+a.nav-link:hover {
+  border-bottom: 2px solid blue;
+}
+
 a:visited {
   text-decoration: none;
   color: #000;
@@ -38,8 +42,4 @@ li {
 img {
   max-width: 100%;
   height: auto;
-}
-
-a.nav-link:hover {
-  border-bottom: 2px solid blue;
 }
