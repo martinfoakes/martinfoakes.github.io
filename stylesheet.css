@@ -40,6 +40,6 @@ img {
   height: auto;
 }
 
-.nav-link:hover {
+a.nav-link:hover {
   border-bottom: 2px solid blue;
 }
