@@ -98,7 +98,24 @@ body {
     to   { opacity: 1; }
 }
 
-.home-image-main {
+.home-intro-text {
     padding-top: 6em;
-    padding-bottom: 6em;
+    padding-bottom: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-image-main {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.home-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
 }
