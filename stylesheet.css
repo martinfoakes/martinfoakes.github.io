@@ -60,11 +60,11 @@ body {
 
 .navbar-logo {
     float:left;
-    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 5s; /* Firefox < 16 */
-        -ms-animation: fadein 5s; /* Internet Explorer */
-         -o-animation: fadein 5s; /* Opera < 12.1 */
-            animation: fadein 5s;
+    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 8s; /* Firefox < 16 */
+        -ms-animation: fadein 8s; /* Internet Explorer */
+         -o-animation: fadein 8s; /* Opera < 12.1 */
+            animation: fadein 8s;
 }
 
 /* SITE LOGO CSS Keyframes Declarations */
@@ -103,7 +103,7 @@ body {
     padding-bottom: 4em;
     padding-left: 2em;
     padding-right: 2em;
-    max-width: 80em;
+    max-width: 63em;
     margin-left: auto;
     margin-right: auto;
 }
