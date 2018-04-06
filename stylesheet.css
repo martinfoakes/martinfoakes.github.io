@@ -3,20 +3,58 @@
 }
 
 html {
-    background: #e6e9e9;
+    -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6, li {
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    border: 20px solid #e6e9e9;
+}
+
+h1, h2, h3, h4, h6, li {
     font-weight: bold;
 }
 
-p {
-  color: SeaGreen;
-  text-decoration: none;
+h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 1em;
+    margin-bottom: 1em;
+    color: #383838;
 }
+
+h5 {
+  color:#3e7e00;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+
+/*NAV LINK and TEXT LINK STYLING */
 
 a {
   font: inherit;
+}
+
+a.nav-link:link {
+  text-decoration: none;
+  color: #000;
+}
+
+a.nav-link:visited {
+  color:#000;
 }
 
 a.nav-link:hover {
@@ -24,14 +62,17 @@ a.nav-link:hover {
   color: #708090;
 }
 
-a:visited {
-  text-decoration: none;
-  color: #000;
+a.nav-link:active {
+  color:#000;
 }
 
-a:link {
+a.p-link:link, a.p-link:visited {
+  color:#3e7e00;
+}
+
+a.p-link:hover {
+  color:#94c168;
   text-decoration: none;
-  color: #000;
 }
 
 li {
@@ -47,24 +88,13 @@ img {
   height: auto;
 }
 
-body {
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #545454;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 auto;
-    max-width: 1150px;
-    padding: 2em 2em 4em;
-}
-
 .navbar-logo {
     float:left;
-    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 8s; /* Firefox < 16 */
-        -ms-animation: fadein 8s; /* Internet Explorer */
-         -o-animation: fadein 8s; /* Opera < 12.1 */
-            animation: fadein 8s;
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+         -o-animation: fadein 6s; /* Opera < 12.1 */
+            animation: fadein 6s;
 }
 
 /* SITE LOGO CSS Keyframes Declarations */
@@ -99,7 +129,7 @@ body {
 }
 
 .home-intro-text {
-    padding-top: 6em;
+    padding-top: 4em;
     padding-bottom: 4em;
     padding-left: 2em;
     padding-right: 2em;
@@ -115,7 +145,29 @@ body {
 
 .home-image {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin-bottom: 2em;
+}
+
+.home-main-text {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-row {
+    margin-top: 1rem;
+}
+
+.column {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 74px;
+    margin-right: 4%;
+    text-align: center;
 }
