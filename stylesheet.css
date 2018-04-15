@@ -194,7 +194,7 @@ img {
 }
 
 .media {
-  padding-bottom: 1em;
+  padding-bottom: 1em !important;
 }
 
 .social-logo {
