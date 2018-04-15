@@ -19,6 +19,7 @@ body {
 
 h1, h2, h3, h4, h6, li {
     font-weight: bold;
+    font-size: 4vw;
 }
 
 h4 {
@@ -33,6 +34,7 @@ h5 {
   color:#3e7e00;
   font-size: 16px;
   line-height: 1.5;
+  font-size: 4vw;
 }
 
 p {
@@ -40,6 +42,7 @@ p {
   font-family: 'Merriweather', serif;
   line-height: 2em;
   margin-bottom: 2em;
+  font-size: 4vw;
 }
 
 /*NAV LINK and TEXT LINK STYLING */
