@@ -75,7 +75,11 @@ a.p-link:hover {
   text-decoration: none;
 }
 
-li {
+li{
+  display: inherit;
+}
+
+li.nav-item {
   display: inherit;
   font-weight: 100;
   letter-spacing: 2px;
@@ -171,4 +175,30 @@ img {
     max-width: 74px;
     margin-right: 4%;
     text-align: center;
+}
+
+.footer-links {
+  text-align: left;
+  padding-top: 3em;
+  padding-bottom: 4em;
+  border-top: 1px solid #dbd9d9;
+  border-top-style:solid;
+  max-width: 100%;
+}
+
+.list-unstyled {
+  padding-left: 2em;
+}
+
+.social-logo {
+  height: auto;
+  max-width: 2em;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 2em;
+  text-align: center;
+}
+
+.media-body {
+  padding-top: 1.3em;
 }
