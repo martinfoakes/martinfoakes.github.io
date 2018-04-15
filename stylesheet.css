@@ -13,7 +13,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    padding: 2em 2em 4em;
+    padding: 2em;
     border: 20px solid #e6e9e9;
 }
 
@@ -51,6 +51,7 @@ a {
 a.nav-link:link {
   text-decoration: none;
   color: #000;
+  border-bottom: 1px solid transparent;
 }
 
 a.nav-link:visited {
@@ -58,7 +59,7 @@ a.nav-link:visited {
 }
 
 a.nav-link:hover {
-  border-bottom: 2px solid #3e7e00;
+  border-bottom: 1px solid #3e7e00;
   color: #708090;
 }
 
@@ -166,7 +167,7 @@ img {
 
 .logo-row {
     margin-top: 1rem;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 .column {
@@ -184,6 +185,8 @@ img {
   border-top: 1px solid #dbd9d9;
   border-top-style:solid;
   max-width: 100%;
+  border-bottom: 1px solid #dbd9d9;
+  border-bottom-style:solid;
 }
 
 .list-unstyled {
@@ -201,4 +204,9 @@ img {
 
 .media-body {
   padding-top: 1.3em;
+}
+
+.copyright-text {
+  text-align: center;
+  padding-top: 3em;
 }
