@@ -353,4 +353,5 @@ img.tech-logo {
 .card-img-top {
   width: 269px;
   height: 154px;
+  box-shadow: 4px 4px 10px gray;
 }
