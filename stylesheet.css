@@ -327,3 +327,30 @@ img.tech-logo {
   text-align: center;
   padding-top: 3em;
 }
+
+.content-portfolio {
+  border-bottom: 1px solid #dbd9d9;
+  border-bottom-style:solid;
+}
+
+.portfolio-body-main {
+  padding-bottom: 2em;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,0);
+}
+
+.card-img-top {
+  width: 269px;
+  height: 154px;
+}
