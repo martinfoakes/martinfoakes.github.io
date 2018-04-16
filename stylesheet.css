@@ -6,17 +6,6 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-body {
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #545454;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 auto;
-    padding: 2em;
-    border: 20px solid #e6e9e9;
-}
-
 nav {
   overflow:visible;
 }
@@ -48,6 +37,40 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 0.5em;
+    border: 10px solid #e6e9e9;
+  }
+  
+  .home-intro-text {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 63em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .column {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 47px;
+    margin-right: 4%;
+    text-align: center;
+  }
+  
+  .logo-row {
+    margin-top: 1rem;
+    margin-bottom: 1.5em;
+  }
+  
   h3 {
     font-size: 4.9vw;
   }
@@ -59,11 +82,55 @@ nav {
   p {
     font-size: 3vw;
   }
+  
+  .logo {
+    width: auto;
+    height: 70px;
+  }
 }
 
 @media screen and (min-width: 769px) {
+  body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em;
+    border: 20px solid #e6e9e9;
+  }
+  
+  .home-intro-text {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 63em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .column {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 74px;
+    margin-right: 4%;
+    text-align: center;
+  }
+  
+  .logo-row {
+    margin-top: 1rem;
+    margin-bottom: 3em;
+  }
+  
   h4 {
     font-size: 18px;
+  }
+  
+  .logo {
+    width: auto;
+    height: 100px;
   }
 }
 
@@ -142,13 +209,27 @@ img {
   height: auto;
 }
 
-.navbar-logo {
-    float:left;
-    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 6s; /* Firefox < 16 */
-        -ms-animation: fadein 6s; /* Internet Explorer */
-         -o-animation: fadein 6s; /* Opera < 12.1 */
-            animation: fadein 6s;
+@media screen and (min-width: 769px) {
+    .navbar-logo {
+        padding-left: 1em;
+        float:left;
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+           -moz-animation: fadein 6s; /* Firefox < 16 */
+            -ms-animation: fadein 6s; /* Internet Explorer */
+             -o-animation: fadein 6s; /* Opera < 12.1 */
+                animation: fadein 6s;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-logo {
+        float:left;
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+           -moz-animation: fadein 6s; /* Firefox < 16 */
+            -ms-animation: fadein 6s; /* Internet Explorer */
+             -o-animation: fadein 6s; /* Opera < 12.1 */
+                animation: fadein 6s;
+    }
 }
 
 /* SITE LOGO CSS Keyframes Declarations */
@@ -182,16 +263,6 @@ img {
     to   { opacity: 1; }
 }
 
-.home-intro-text {
-    padding-top: 4em;
-    padding-bottom: 4em;
-    padding-left: 2em;
-    padding-right: 2em;
-    max-width: 63em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .home-image-main {
     padding-left: 2em;
     padding-right: 2em;
@@ -212,19 +283,6 @@ img {
     max-width: 55em;
     margin-left: auto;
     margin-right: auto;
-}
-
-.logo-row {
-    margin-top: 1rem;
-    margin-bottom: 3em;
-}
-
-.column {
-    box-sizing: border-box;
-    display: inline-block;
-    max-width: 74px;
-    margin-right: 4%;
-    text-align: center;
 }
 
 .footer-links {
