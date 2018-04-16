@@ -204,11 +204,6 @@ li.nav-item {
   text-transform: uppercase;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 @media screen and (min-width: 769px) {
     .navbar-logo {
         padding-left: 1em;
