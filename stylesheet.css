@@ -47,6 +47,14 @@ nav {
     padding: 0.5em;
     border: 10px solid #e6e9e9;
   }
+
+  .js-desktop {
+    display:none;
+  }
+
+  .js-mobile {
+    display: block;
+  }
   
   .home-intro-text {
     padding-top: 2em;
@@ -90,6 +98,14 @@ nav {
 }
 
 @media screen and (min-width: 769px) {
+  .js-desktop {
+    display:block;
+  }
+
+  .js-mobile {
+    display: none;
+  }
+
   body {
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
