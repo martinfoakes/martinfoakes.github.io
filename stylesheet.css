@@ -49,11 +49,11 @@ nav {
   }
 
   .js-desktop {
-    display:none;
+    display:none !important;
   }
 
   .js-mobile {
-    display: block;
+    display: block !important;
   }
   
   .home-intro-text {
@@ -99,11 +99,11 @@ nav {
 
 @media screen and (min-width: 769px) {
   .js-desktop {
-    display:block;
+    display:block !important;
   }
 
   .js-mobile {
-    display: none;
+    display: none !important;
   }
 
   body {
